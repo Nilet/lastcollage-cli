@@ -23,7 +23,7 @@ cd lastcollage-cli
 npm install
 ```
 - Edit `config.json` to configure the collage generated 
-```json
+```javascript
   {
     "username": ["lastfm_username", "separated_by_comma"], 
     "period": "1week",    // Accepted values: "forever", "1week", "1month", "3month", "6month", "1year"
